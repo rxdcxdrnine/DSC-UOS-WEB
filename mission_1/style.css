@@ -1,0 +1,151 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#myVideo {
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+#header h1 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 60px;
+    text-align: center;
+}
+
+
+#container {
+    position: fixed;
+    top: 30%;
+    left: 0;
+
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+
+.side {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.side-inequal {
+    width: 10%;
+    height: 100%;
+    margin-top: 160px;
+    margin-bottom: 0px;
+    color: #ffffff;
+    font-size: 60px;
+    text-align: center;
+}
+
+.center {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.side-text {
+    margin-top: 160px;
+    margin-bottom: 0px;
+    color: #ffffff;
+    font-size: 48px;
+    text-align: center;
+}
+
+
+.center-text {
+    margin-top: 160px;
+    margin-bottom: 0px;
+    color: #ffffff;
+    font-size: 48px;
+    text-align: center;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    border: 5px solid;
+
+    background-color: Transparent;
+    color: #ffffff;
+    border-color: #ffffff;
+    text-align: center;
+
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    background-color: Transparent;
+    color: rgba(0, 0, 0, 1);
+    background-color: #ffffff;
+}
+
+
+.center-text {
+    position: relative;
+    float: left;
+    color: #ffffff;
+    font-size: 4em;
+}
+
+.center h2 span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #1d1f20;
+    width: 100%;
+    border-left: .1em solid transparent;
+    -webkit-animation: typing 3s steps(16) forwards,
+                                         cursor 1s infinite;
+    animation: typing 3s steps(16) forwards,
+                         cursor 1s infinite;
+}
+
+/* Animation */
+@-webkit-keyframes typing{
+    from { width: 100%;}
+    to { width: 0;}
+}
+@-webkit-keyframes cursor{
+    50% { border-color: white;}
+}
+@keyframes typing{
+    from{ width: 100%;}
+    to{ width: 0;}
+}
+@keyframes cursor{
+    50% { border-color: white;}
+}
+
